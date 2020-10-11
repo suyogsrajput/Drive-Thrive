@@ -3,14 +3,14 @@
   color: #ffffff;
   display: inline-block;
   font-family: 'Source Sans Pro', sans-serif;
-  font-size: 15px;
+  font-size: 13px;
   margin: 10px 5px;
   max-width: 390px;
-  min-width: 230px;
+  min-width: 205px;
   overflow: hidden;
   position: relative;
   text-align: right;
-  width: 32%;
+  width: 31%;
 }
 
 .snip1563 *, .snip1563 *:before, .snip1563 *:after {
@@ -54,7 +54,7 @@
   top: 0px;
   bottom: 0px;
   left: 0px;
-  right: 0px;
+  right: 32px;
   z-index: 1;
   bottom: 0;
   padding: 20px 20px 20px 40%;
@@ -91,7 +91,7 @@
 
 .snip1563 h3 {
   font-family: 'Teko', sans-serif;
-  font-size: 33px;
+  font-size: 28px;
   font-weight: 700;
   line-height: 1em;
   text-transform: uppercase;
@@ -140,5 +140,13 @@
   transform: skew(-30deg) translateX(40%);
   -webkit-transition-delay: 0.1s;
   transition-delay: 0.1s;
+}
+
+.container, .container-lg, .container-md, .container-sm, .container-xl {
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  max-width: 1000px;
 }
 

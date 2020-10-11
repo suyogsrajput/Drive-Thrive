@@ -669,8 +669,8 @@
 .post_carousel_wrapper > .carousel-inner > .carousel-item > a > img, .post_carousel_wrapper > .carousel-inner > .carousel-item > img {
   opacity: .5;
   margin: auto;
-  width: 100%!important;
-  height: 650px;
+  width: inherit;
+  height: inherit;
 }
 
 .post_carousel_caption {
